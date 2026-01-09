@@ -4,7 +4,7 @@ import coll3 from "../assets/images/coll3.png";
 
 function FeaturedCollectionsSection() {
   return (
-    <section className="featured-collections mt-5 py-5">
+    <section className="featured-collections mb-5">
       <div className="container text-center">
         <h3 className="text-center mb-4 featuredcollection-section-title">
   Featured Collections
