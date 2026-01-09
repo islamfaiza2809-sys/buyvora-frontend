@@ -563,7 +563,7 @@ section {
    FEATURES SECTION
 ======================== */
 .features-section {
-  background: #fdecc8;
+ background: linear-gradient(to bottom, #FFFFFF, #C0C0C0);
   padding: 60px 0 ;
 }
 
@@ -894,7 +894,7 @@ section {
    PROMO BANNER SECTION
 ================================= */
 .promo-banner-section {
-  background: linear-gradient(135deg, #f74003,#ff742e,#d84e3c, #141432);
+  background: linear-gradient(135deg,#780000,#c21a25, #3d3e3f);
   color: white;
   text-align: center;
   padding:100px 40px;
@@ -1313,7 +1313,6 @@ section {
 
 .checkout-wrapper {
   min-height: 60vh;
-  /* background: linear-gradient(135deg, #f76c6c, #f9eeee); */
   background: whitesmoke;
   display: flex;
   align-items: center;
@@ -1334,7 +1333,7 @@ section {
 
 /* LEFT INFO */
 .checkout-brand {
-  background: linear-gradient(135deg, #ff3b3b, #ff6b6b);
+  background: linear-gradient(to bottom,#780000,#c21a25);
   color: #fff;
   padding: 70px 60px;
   display: flex;
@@ -1417,7 +1416,7 @@ section {
   height: 52px;
   border-radius: 12px;
   border: none;
-  background: linear-gradient(135deg, #ff3b3b, #ff6b6b);
+  background: #c21a25;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -1490,7 +1489,7 @@ section {
 ================================ */
 
 .contact-hero {
-  background: linear-gradient(135deg, #e72e2e, #fd7a7a);
+  background: linear-gradient(135deg,#780000,#c21a25, #3d3e3f);
   padding: 6rem 1rem;
   text-align: center;
 }
@@ -1527,7 +1526,7 @@ section {
 /* golden rounded card */
 .contact-card {
   flex: 1;
-  background: #fdecc8;
+  background: linear-gradient(to bottom, #FFFFFF, #C0C0C0);
   padding: 3rem;
   border-radius: 30px;
 }
@@ -1665,7 +1664,7 @@ section {
 ================================ */
 
 .about-hero {
-  background: linear-gradient(135deg, #e72e2e, #fd7a7a);
+  background: linear-gradient(135deg,#780000,#c21a25, #3d3e3f);
   padding: 6rem 1rem;
   text-align: center;
 }
@@ -1774,7 +1773,7 @@ section {
 .about-purpose {
   padding: 6rem 1rem;
   text-align: center;
-  background: #fdecc8;
+  background: linear-gradient(to bottom, #FFFFFF, #C0C0C0);
   margin-top: 60px;
 }
 
@@ -1929,7 +1928,7 @@ section {
 
 /* BRAND SECTION */
 .auth-brand {
-  background: linear-gradient(135deg, #ff3b3b, #ff6b6b);
+  background: linear-gradient(to bottom,#780000,#c21a25);
   color: #fff;
   padding: 70px 60px;
   display: flex;
@@ -1996,7 +1995,7 @@ section {
   height: 52px;
   border-radius: 12px;
   border: none;
-  background: linear-gradient(135deg, #ff3b3b, #ff6b6b);
+  background: #c21a25;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
