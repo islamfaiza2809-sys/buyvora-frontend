@@ -1,6 +1,6 @@
 function FeaturesSection() {
   return (
-    <section className="features-section mt-5">
+    <section className="features-section mt-5 mb-5">
       <div className="container">
         <div className="row text-center">
           <div className="col-md-4">
