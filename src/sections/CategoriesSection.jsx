@@ -23,7 +23,7 @@ function CategoriesSection() {
   ];
 
   return (
-    <section className="categories-section mt-5">
+    <section className="categories-section mt-2">
       <div className="container">
         <h3 className="text-center mb-4 categories-section-title">
           Explore Our Categories
