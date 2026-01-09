@@ -1,6 +1,6 @@
 function TestimonialsSection() {
   return (
-    <section className="testimonials-section mt-5">
+    <section className="testimonials-section">
       <div className="container">
         <h3 className="text-center mb-4 testimonals-section-title">What Our Customers Says</h3>
         <p className="testimonials-subtitle">
