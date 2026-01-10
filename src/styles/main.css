@@ -1492,6 +1492,21 @@ section {
   background: linear-gradient(135deg,#780000,#c21a25, #3d3e3f);
   padding: 6rem 1rem;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.contact-hero::before {
+  content: "";
+  position: absolute;
+  inset: -100%;
+  background: rgba(255,255,255,0.04);
+  transform: rotate(45deg) translateZ(0);
+  animation: shine 8s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  pointer-events: none;
 }
 
 .contact-hero h1 {
@@ -1664,9 +1679,24 @@ section {
 ================================ */
 
 .about-hero {
-  background: linear-gradient(135deg,#780000,#c21a25, #3d3e3f);
+  background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
   padding: 6rem 1rem;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.about-hero::before {
+  content: "";
+  position: absolute;
+  inset: -60%;
+  background: rgba(255,255,255,0.04);
+  transform: rotate(45deg) translateZ(0);
+  animation: shine 8s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  pointer-events: none;
 }
 
 .about-hero h1 {
