@@ -312,6 +312,7 @@ section {
 
   .navbar-nav:last-child .btn {
     width: 100%;
+    background: linear-gradient(135deg,#780000,#c21a25, #3d3e3f);
   }
 }
 
@@ -474,6 +475,11 @@ section {
   }
 }
 
+.btn-dark  {
+    background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
+    border: none;
+}
+
 /* =========================
    VERY SMALL MOBILE
 ========================= */
@@ -526,6 +532,13 @@ section {
   margin-top: 20px;
   padding: 12px 22px;
   font-size: 15px;
+  background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
+  border: none;
+}
+
+.product-details button:hover {
+  background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
+  transform: translateY(-3px);
 }
 
 /* =========================
@@ -1259,7 +1272,7 @@ section {
 }
 
 .cart-card button:hover {
-  background: #000;
+  background: linear-gradient(135deg,#780000,#c21a25);
   color: #fff;
 }
 
@@ -1269,7 +1282,7 @@ section {
   margin: 50px auto 0;
   width: 280px;
   padding: 15px;
-  background: #000;
+  background: linear-gradient(135deg,#780000,#c21a25);
   color: #fff;
   text-align: center;
   font-weight: 600;
@@ -1278,7 +1291,7 @@ section {
 }
 
 .checkout-btn-1:hover {
-  background: #222;
+  background: linear-gradient(135deg,#780000,#c21a25);
   transform: translateY(-3px);
 }
 
