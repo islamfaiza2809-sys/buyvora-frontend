@@ -312,7 +312,6 @@ section {
 
   .navbar-nav:last-child .btn {
     width: 100%;
-    background: linear-gradient(135deg,#780000,#c21a25, #3d3e3f);
   }
 }
 
@@ -469,15 +468,11 @@ section {
     gap: 6px;
   }
 
-  .product-actions button {
-    font-size: 13px;
-    padding: 7px;
-  }
+  .product-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
-
-.btn-dark  {
-    background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
-    border: none;
 }
 
 /* =========================
@@ -532,13 +527,6 @@ section {
   margin-top: 20px;
   padding: 12px 22px;
   font-size: 15px;
-  background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
-  border: none;
-}
-
-.product-details button:hover {
-  background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
-  transform: translateY(-3px);
 }
 
 /* =========================
@@ -1272,7 +1260,7 @@ section {
 }
 
 .cart-card button:hover {
-  background: linear-gradient(135deg,#780000,#c21a25);
+  background: #000;
   color: #fff;
 }
 
@@ -1282,7 +1270,7 @@ section {
   margin: 50px auto 0;
   width: 280px;
   padding: 15px;
-  background: linear-gradient(135deg,#780000,#c21a25);
+  background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
   color: #fff;
   text-align: center;
   font-weight: 600;
@@ -1291,7 +1279,7 @@ section {
 }
 
 .checkout-btn-1:hover {
-  background: linear-gradient(135deg,#780000,#c21a25);
+  background: linear-gradient(135deg,#780000,#c21a25,#3d3e3f);
   transform: translateY(-3px);
 }
 
